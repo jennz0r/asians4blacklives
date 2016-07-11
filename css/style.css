@@ -1,0 +1,50 @@
+body {
+  background: url("../img/lined_paper.png");
+  font-family: 'roboto', 'helvetica neue', helvetica, arial, sans-serif; }
+
+main {
+  margin: 1em 5em;
+  font-size: 1.4em;
+  line-height: 1.4em; }
+
+h1 {
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  line-height: 1.1em;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: red; }
+
+img {
+  display: block;
+  width: 25%;
+  margin: 0 auto; }
+
+footer {
+  display: flex;
+  justify-content: space-around; }
+
+.opening, .closing {
+  font-family: 'sriracha', 'roboto', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 1.5em; }
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 1em 2em; }
+
+  img {
+    width: 50%; } }
+@media only screen and (max-width: 480px) {
+  main {
+    margin: 1em 1.2em;
+    font-size: 1.2em; }
+
+  h1 {
+    font-size: 1.5em; }
+
+  img {
+    width: 50%; } }
+
+/*# sourceMappingURL=style.css.map */
